@@ -21,7 +21,8 @@ GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID")
 GOOGLE_CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET")
 LINKEDIN_CLIENT_ID = os.getenv("LINKEDIN_CLIENT_ID")
 LINKEDIN_CLIENT_SECRET = os.getenv("LINKEDIN_CLIENT_SECRET")
-LINKEDIN_REDIRECT_URI = "http://localhost:5000/linkedin/callback"
+LINKEDIN_REDIRECT_URI="https://postify-zwqe.onrender.com/linkedin/callback"
+
 
 # Initialize Search Tool
 search = DuckDuckGoSearchRun(name='Search')
